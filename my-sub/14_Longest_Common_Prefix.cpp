@@ -22,6 +22,13 @@
 
 class Solution {
 public:
+    /**
+     * [longestCommonPrefix description]
+     * @hainingbaby
+     * @Time        2019-04-10T20:07:06+0800
+     * @param       strs                     [description]
+     * @return                               lcp
+     */
     string longestCommonPrefix(vector<string>& strs) {
         if(strs.size() == 0)
             return "";
